@@ -30,17 +30,17 @@ function Queue(){
 	this.pop = this.dequeue;
 	this.remove = this.dequeue;
 	
-	//empty the queue, there's a lot of discussion as to whether to use q.length = 0 or q = []; see: http://jsperf.com/emptying-arrays
+	//empty the queue, there's a lot of discussion as to whether to use arr.length = 0 or arr = []; see: http://jsperf.com/emptying-arrays
 	this.clear = function() { queue.length = 0; }
 	
-	//return length of the queue
+	//return size of the queue
 	this.size = function() { return (queue.length); }
 	this.length = this.size;
 	this.count = this.size;
 	
 	//returns whether or not the queue contains obj
 	this.contains = function(obj) {
-		for(o in queue) { if(queue[o] == obj) return true; }
+		for(o in queue) { if(queue[o] === obj) return true; }
 		return false;
 	}
 	
@@ -53,5 +53,42 @@ function Queue(){
 	
 	//return the item at the end of the queue
 	this.back = function() { return ((queue.length > 0) ? queue[queue.length - 1] : undefined); }
+}
 
+/******
+*	Stack - LIFO
+*	Methods implemented:
+*		push, add; pop; clear; size, length, count; contains; isempty; peek;
+*/
+function Stack(){
+
+	//initializing the queue
+	var stack = [];
+
+	//push the obj on to the top of the stack
+	this.push = function(obj) { stack.push(obj); }
+	this.add = this.push;
+	
+	//pops an obj from the top of the stack and returns the object popped
+	this.pop = function() { return stack.pop(); }
+	
+	//empty the stack, there's a lot of discussion as to whether to use arr.length = 0 or arr = []; see: http://jsperf.com/emptying-arrays
+	this.clear = function() { stack.length = 0; }
+	
+	//return size of the stack
+	this.size = function() { return (stack.length); }
+	this.length = this.size;
+	this.count = this.size;
+	
+	//returns whether or not the stack contains obj
+	this.contains = function(obj) {
+		for(o in stack) { if(stack[o] === obj) return true; }
+		return false;
+	}
+	
+	//return whether or not the stack is empty
+	this.isempty = function() { return stack.length == 0; }
+
+	//returns the item at the top of the stack without popping it
+	this.peek = function() { return ((stack.length > 0) ? stack[stack.length-1] : undefined); }
 }
