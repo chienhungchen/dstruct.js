@@ -1,1 +1,34 @@
-We'll fill this in later
+Created by: Chien-Hung Chen and Christopher Gross
+
+The idea of the project is to provide javascript users with a set of data structures that you usually see in many other programming languages such as Java and C#.
+Some may argue that this is not useful because you can always build your own, and that's true, but we just want to do it.
+
+For our first version, the data structures will be a part of one giant file: structs.js (later to rename as dstruct.js or dstructs.js)
+Following versions will start to break the data structures out into separate files, where you can host on your server and pull only the files you need to help speed up load time
+
+Below are the data structures we plan to implement.
+
+
+* = implemented
+
+v1.0 will at least implement the follow: 
+	Queue*
+	Priority Queue
+	Stack
+	Linked List
+	Doubly Linked List
+	Binary Search Tree
+	Max Heap
+	Binary Heap
+	Min Heap
+	Heap
+	Hash Table
+	Graph
+	Directed Graph
+	Map
+	
+v2 will start to implement other less commonly used data structures:
+	AVL Tree
+	Red-black tree
+	Splay Tree
+	...will finish later
