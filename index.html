@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>structJS Test Page</title>
+		<script src="structs.js"></script>
+	</head>
+	<body>
+		<div id="testing"></div>
+		<script type="text/javascript">
+			var q = new Queue();
+			var objs = new Array("apple", "oranges", "blue", "green", "grapes", "purple", "cherry", "lemon");
+			var testingHTML = "Testing isempty before add: " + q.isempty() + "<br /> Objects are: ";
+			
+			for (var i = 0; i < objs.length; i++) {
+				testingHTML += objs[i] + " ";
+				if(i == 0) { q.add(objs[i]); }
+				else if(i == 1) { q.push(objs[i]); }
+				else if(i == 2) { q.enqueue(objs[i]); }
+				else{ q.add(objs[i]); }
+			}
+			testingHTML += "<br />";
+			
+			testingHTML += "Testing isempty after add: " + q.isempty() + "<br />";
+			testingHTML += "Testing dequeue: Before dequeue size: " + q.size() + "<br />";
+			testingHTML += "Testing dequeue: Before dequeue count: " + q.count() + "<br />";
+			testingHTML += "Testing dequeue: Before dequeue length: " + q.length() + "<br />";
+			testingHTML += "Testing dequeue: Dequeue return value: " + q.dequeue() + "<br />";
+			testingHTML += "Testing dequeue: After dequeue size: " + q.size() + "<br />";
+			testingHTML += "Testing pop: Before pop size: " + q.size() + "<br />";
+			testingHTML += "Testing pop: pop return value: " + q.pop() + "<br />";
+			testingHTML += "Testing pop: After pop size: " + q.size() + "<br />";
+			testingHTML += "Testing remove: Before remove size: " + q.size() + "<br />";
+			testingHTML += "Testing remove: remove return value: " + q.remove() + "<br />";
+			testingHTML += "Testing remove: After remove size: " + q.size() + "<br />";
+			testingHTML += "Testing peek: Before peek size: " + q.size() + "<br />";
+			testingHTML += "Testing peek: Peek return value: " + q.peek() + "<br />";
+			testingHTML += "Testing front: Front return value: " + q.size() + "<br />";
+			testingHTML += "Testing peek: After peek size: " + q.size() + "<br />";
+			testingHTML += "Testing back: Back return value: " + q.back() + "<br />";
+			testingHTML += "Testing back: After back size: " + q.size() + "<br />";
+			testingHTML += "Testing contains: contains return value (lemon): " + q.contains("lemon") + "<br />";
+			testingHTML += "Testing contains: contains return value (horse): " + q.contains("horse") + "<br />";
+			testingHTML += "Testing contains: After contains size: " + q.size() + "<br />";
+			testingHTML += "Testing clear: " + "<br />";
+			q.clear();
+			testingHTML += "Testing clear: After clear size: " + q.size() + "<br />";
+			document.getElementById("testing").innerHTML = testingHTML;
+		</script>
+	</body>
+</html>
