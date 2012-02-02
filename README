@@ -1,4 +1,4 @@
-Created by: Chien-Hung Chen and Christopher Gross
+Created by: Chien-Hung Chen
 
 The idea of the project is to provide javascript users with a set of data structures that you usually see in many other programming languages such as Java and C#.
 Some may argue that this is not useful because you can always build your own, and that's true, but we just want to do it.
@@ -14,7 +14,7 @@ Below are the data structures we plan to implement.
 v1.0 will at least implement the follow: 
 	Queue*
 	Priority Queue
-	Stack
+	Stack*
 	Linked List
 	Doubly Linked List
 	Binary Search Tree
