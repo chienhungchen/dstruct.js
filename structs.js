@@ -1,8 +1,34 @@
 /******
-* structs.js
+* dstruct.js
 * Created by: Chien-Hung Chen
 * Created with the intent of offering special data structures for javascript users
 */
+
+
+/******
+*	Binary Search Tree
+*	Methods implemented:
+*		enqueue, push, add; dequeue, pop, remove; clear; size, length, count; contains; isempty; peek, front; back
+*/
+var bstNode = function(v, l, r){
+	this.value = v;
+	this.left = l;
+	this.right = r;
+}
+function BinarySearchTree(rootval){
+	var root;
+	if(rootval == undefined || rootval == undefined)
+		root = new bstNode(null, null, null);
+	else
+		root = new bstNode(rootval, null, null);
+		
+	//returns the root of the tree
+	this.getroot = function() { return root; }
+	
+	//sets the root of the tree
+	this.setroot = function(r) { root = r; }
+}
+
 
 /******
 *	Queue - FIFO

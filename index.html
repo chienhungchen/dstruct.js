@@ -67,6 +67,15 @@
 			stack.clear();
 			testingHTML += "Testing clear: After clear size: " + stack.size() + "<br />";
 						
+			
+			var bst = new BinarySearchTree();
+			var s = "root node test value"
+			bst.setroot(s);
+			
+			testingHTML += "<br />";
+			testingHTML += "<b>Testing Binary Search Tree</b><br />";
+			testingHTML += "Testing setroot() and getroot(), value is: " + bst.getroot();
+			
 			document.getElementById("testing").innerHTML = testingHTML;
 		</script>
 	</body>
