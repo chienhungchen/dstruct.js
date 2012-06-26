@@ -1,7 +1,7 @@
 /******
 * dstruct.js
 * Created by: Chien-Hung Chen
-* Created with the intent of offering special data structures for javascript users
+* http://github.com/chienhungchen/dstruct.js
 */
 
 /******
