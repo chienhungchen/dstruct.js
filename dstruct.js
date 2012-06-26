@@ -114,7 +114,7 @@ function BinarySearchTree(rootval){
 		//returns whether or not the stack contains obj
 		contains: function(obj) {
 			for(var i = 0; i < this.stack.length; i++) {
-				if(this.stack[o] === obj) 
+				if(this.stack[i] === obj) 
 					return true;
 			}
 			return false;
