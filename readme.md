@@ -10,7 +10,6 @@ Coming soon...after more of version 1.0.0 is done. Otherwise, read the source of
 Below are the data structures we plan to implement.
 
 Version 1.0.0 will be complete when the following are implemented and tested: 
-	
 - Queue*
 - Priority Queue
 - Stack*
@@ -41,7 +40,7 @@ version 2.0.0 will be complete when the following are implemented and tested:
 	- created project and implemented Queue and Stack.
 - Version 0.0.2
 	- June 2012
-	- restructured dstruct.js file for better javascript implementation.
+	- restructured dstruct.js file for better JavaScript implementation.
 
 ##License
 
