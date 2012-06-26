@@ -22,7 +22,9 @@ Version 1.0.0 will be complete when the following are implemented and tested:
 - Graph
 - Directed Graph
 - Map
-	
+
+/* = implemented
+
 version 2.0.0 will be complete when the following are implemented and tested:
 
 - AVL Tree
