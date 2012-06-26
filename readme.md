@@ -1,7 +1,10 @@
 #DStruct.js
-####Version 0.0.1
+####Version 0.0.1 - March 2012
 
 A library of data structures that are common in many other languages. I understand that the Google Closure library also has data structures. But I am hoping to not overlap (too much).
+
+##How To Use
+Coming soon...after more of version 1.0.0 is done. Otherwise, read the source of test.html for now.
 
 ##Upcoming
 Below are the data structures we plan to implement.
