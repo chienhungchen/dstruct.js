@@ -1,5 +1,5 @@
 #DStruct.js
-####Version 0.0.2 - March 2012
+####Version 0.0.2 - June 2012
 
 A library of data structures that are common in many other languages. While the Google Closure library also has data structures, I am creating with the hopes that it will not overlap (too much).
 
@@ -28,7 +28,6 @@ Version 1.0.0 will be complete when the following are implemented and tested:
 \* = implemented
 
 version 2.0.0 will be complete when the following are implemented and tested:
-
 - AVL Tree
 - Red-black tree
 - Splay Tree
