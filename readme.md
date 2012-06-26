@@ -7,6 +7,7 @@ A library of data structures that are common in many other languages. I understa
 Below are the data structures we plan to implement.
 
 Version 1.0.0 will be complete when the following are implemented and tested: 
+	
 	- Queue*
 	- Priority Queue
 	- Stack*
