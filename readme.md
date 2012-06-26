@@ -1,7 +1,7 @@
 #DStruct.js
-####Version 0.0.1 - March 2012
+####Version 0.0.2 - March 2012
 
-A library of data structures that are common in many other languages. I understand that the Google Closure library also has data structures. But I am hoping to not overlap (too much).
+A library of data structures that are common in many other languages. While the Google Closure library also has data structures, I am creating with the hopes that it will not overlap (too much).
 
 ##How To Use
 Coming soon...after more of version 1.0.0 is done. Otherwise, read the source of test.html for now.
@@ -34,6 +34,14 @@ version 2.0.0 will be complete when the following are implemented and tested:
 - Red-black tree
 - Splay Tree
 - And more to come...
+
+##Version Log
+- Version 0.0.1
+	- March 2012
+	- created project and implemented Queue and Stack.
+- Version 0.0.2
+	- June 2012
+	- restructured dstruct.js file for better javascript implementation.
 
 ##License
 
