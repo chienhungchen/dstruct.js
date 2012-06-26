@@ -1,12 +1,15 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>structJS Test Page</title>
 		<script src="structs.js"></script>
+		<script src="experimental.js"></script>
+		<!--<script src="experimental2.js"></script>-->
 	</head>
 	<body>
 		<div id="testing"></div>
 		<script type="text/javascript">
+			//var a = new Queue2();
 			var q = new Queue();
 			var objs = new Array("apple", "oranges", "blue", "green", "grapes", "purple", "cherry", "lemon");
 			var testingHTML = "<b>Testing Queue</b><br />Testing isempty before add: " + q.isempty() + "<br /> Objects are: ";
