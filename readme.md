@@ -8,20 +8,20 @@ Below are the data structures we plan to implement.
 
 Version 1.0.0 will be complete when the following are implemented and tested: 
 	
-	- Queue*
-	- Priority Queue
-	- Stack*
-	- Linked List
-	- Doubly Linked List
-	- Binary Search Tree
-	- Max Heap
-	- Binary Heap
-	- Min Heap
-	- Heap
-	- Hash Table
-	- Graph
-	- Directed Graph
-	- Map
+- Queue*
+- Priority Queue
+- Stack*
+- Linked List
+- Doubly Linked List
+- Binary Search Tree
+- Max Heap
+- Binary Heap
+- Min Heap
+- Heap
+- Hash Table
+- Graph
+- Directed Graph
+- Map
 	
 version 2.0.0 will be complete when the following are implemented and tested:
 
