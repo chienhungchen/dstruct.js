@@ -25,10 +25,10 @@ Version 1.0.0 will be complete when the following are implemented and tested:
 	
 version 2.0.0 will be complete when the following are implemented and tested:
 
-	- AVL Tree
-	- Red-black tree
-	- Splay Tree
-	- And more to come...
+- AVL Tree
+- Red-black tree
+- Splay Tree
+- And more to come...
 
 ##License
 
