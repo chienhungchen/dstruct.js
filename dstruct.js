@@ -9,11 +9,7 @@
 *	Methods implemented:
 *		enqueue, push, add; dequeue, pop, remove; clear; size, length, count; contains; isempty; peek, front; back
 */
-var bstNode = function(v, l, r){
-	this.value = v;
-	this.left = l;
-	this.right = r;
-}
+
 function BinarySearchTree(rootval){
 	var root;
 	if(rootval == undefined || rootval == undefined)
@@ -29,6 +25,29 @@ function BinarySearchTree(rootval){
 }
 
 (function(root, undefined){
+	
+	root.bstNode = function(v, l, r){
+		this.value = v;
+		this.left = l;
+		this.right = r;
+	}
+
+	root.BinarySearchTree = function(obj){
+		this.rootNode = bstNode(obj, null, null);
+	};
+
+	root.BinarySearchTree.prototype = {
+		insert: function(obj) {
+			this._private_insert(obj, this.rootNode);
+		},
+		_private_insert: function(obj, p) {
+			if(p === null || p === undefined) {
+				p = bstNode(obj, null, null);
+			}
+			//else if(obj.compareTo())
+		}
+	};
+
 	/******
 	*	Queue - FIFO
 	*	Methods implemented: enqueue, push, add; dequeue, pop, remove; clear; size, length, count; contains; isempty; peek, front; back
